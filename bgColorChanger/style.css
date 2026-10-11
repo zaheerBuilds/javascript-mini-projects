@@ -1,0 +1,22 @@
+
+button {
+    width: 80px;
+    padding: 10px;
+    color: white;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#random {
+    background-color: gray;
+}

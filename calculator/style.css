@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#display {
+    width: 500px;
+    padding: 20px;
+    font-size: 3rem;
+    background-color: rgb(168, 36, 36);
+    border: none;
+    font-size: 3rem;
+    color: white;
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    background-color: rgb(94, 92, 92);
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(28, 27, 27);
+    color: white;
+    font-size: 46px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.operator-btn {
+    background-color: rgb(252, 137, 43);
+}
